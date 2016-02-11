@@ -1,0 +1,216 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<logicalClassDesignerModel xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm4="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/ModelStore" dslVersion="1.0.0.0" Id="fc719632-d620-439f-91eb-d25eb047940b" name="UMLClassDiagram1" linkedPackageId="9e6fec45-bec6-4708-ad89-cbff71a7f606" xmlns="http://schemas.microsoft.com/dsltools/LogicalClassDesigner">
+  <profileInstances>
+    <packageHasProfileInstances Id="29255579-6966-4c3c-96e9-0d86ee943e07">
+      <profileInstance Id="fc07dfaf-a91a-47f9-a078-f0a33c676fb6" name="StandardProfileL2">
+        <elementDefinition Id="e34d544e-0fea-4ed6-ac5e-1b74119ac791" />
+      </profileInstance>
+      <elementDefinition Id="0caec977-1f8c-4ba3-a7db-8cc9ad9cc73b" />
+    </packageHasProfileInstances>
+    <packageHasProfileInstances Id="59cda9a6-e70c-4033-90c8-5f53b59a6472">
+      <profileInstance Id="5c9af2ca-5ba1-4683-ace3-8799e640cd48" name="StandardProfileL3">
+        <elementDefinition Id="532ea607-fb19-44b8-8502-3351b05452be" />
+      </profileInstance>
+      <elementDefinition Id="29349502-908c-4fda-9054-c48619c59ed0" />
+    </packageHasProfileInstances>
+  </profileInstances>
+  <packagedElements>
+    <logicalClassDesignerModelHasPackages>
+      <package Id="712355e0-9822-442f-a7cd-ccd019b04a9b" name="ConsoleApplication2">
+        <elementDefinition Id="40c0cab1-99f1-4e90-a6be-12ec7c57c0d1" />
+        <packagedElements>
+          <packageHasNamedElement>
+            <class Id="8b45a4f1-0306-4100-9062-c4f9358a9aad" name="Cat" isAbstract="false" isLeaf="false" isActiveClass="false">
+              <elementDefinition Id="dd6ef1d1-c044-4620-9229-4bab31dd315c" />
+              <ownedAttributesInternal>
+                <property Id="6a48d64b-fd53-4022-a076-83dca3454887" name="Name" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="37d2ff5d-4578-45ec-a4d8-d8c4cf7aba62" />
+                  <type_NamedElement>
+                    <referencedTypeMoniker Id="e0e239ea-5f34-486e-bbda-744f59a4ded0" LastKnownName="string" />
+                  </type_NamedElement>
+                </property>
+                <property Id="39a6ea78-5fde-47a1-b20c-396a079708d1" name="int Age" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="f8971467-710c-4989-b9a0-2846e9ae1b3a" />
+                </property>
+                <property Id="ad28cea4-56e6-49ec-b2e4-e33a73dc9d7c" name="CatBreed _breed" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="81e17752-5e99-4a3c-84f1-0856c8173447" />
+                </property>
+              </ownedAttributesInternal>
+              <ownedOperationsInternal>
+                <operation Id="effefb17-9aca-41e9-b274-8eaeed2f97f5" name="Cat" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+                  <elementDefinition Id="f0218bca-3889-489e-81cf-50e528ccfe96" />
+                  <ownedParameters>
+                    <operationHasOwnedParameters>
+                      <parameter Id="6b9891e8-460d-4e32-b3b0-a57394dd9a2c" name="name" direction="In" isUnique="false">
+                        <elementDefinition Id="a6c304d0-739e-4ea7-8700-a6313541ab71" />
+                      </parameter>
+                    </operationHasOwnedParameters>
+                    <operationHasOwnedParameters>
+                      <parameter Id="cff36b89-e669-48f6-88cb-6df9beae46e9" name="age" direction="In" isUnique="false">
+                        <elementDefinition Id="e42eae53-24ed-4455-8451-2f4cdb6ef376" />
+                      </parameter>
+                    </operationHasOwnedParameters>
+                    <operationHasOwnedParameters>
+                      <parameter Id="280abaaa-177a-45f8-ac23-25ad65622645" name="breed" direction="In" isUnique="false">
+                        <elementDefinition Id="d8d8e0b4-4c20-4781-89fc-ff936450b182" />
+                      </parameter>
+                    </operationHasOwnedParameters>
+                  </ownedParameters>
+                </operation>
+                <operation Id="b2937fc9-21be-4e72-910d-06a028bac4bf" name="Meow" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+                  <elementDefinition Id="68f42a2d-6689-4e93-84e0-ecb11e0e2079" />
+                </operation>
+                <operation Id="6eba2f67-5179-4c04-a217-3c768fb01275" name="Cat" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+                  <elementDefinition Id="cf98d34b-0ad0-4fd1-86d6-cfe72a821589" />
+                </operation>
+              </ownedOperationsInternal>
+            </class>
+          </packageHasNamedElement>
+          <packageHasNamedElement>
+            <enumeration Id="21149170-8216-4917-8658-5ad95189d533" name="CatBreed" isAbstract="false" isLeaf="false">
+              <elementDefinition Id="47f55e9a-4523-417a-b329-8490b4ac30bc" />
+              <targetEnds>
+                <association Id="c67ff739-82ba-477e-820f-0791e47990a7" isDerived="false" sourceEndRoleName="CatBreed" targetEndRoleName="Cat" isLeaf="false" isAbstract="false">
+                  <classMoniker Id="8b45a4f1-0306-4100-9062-c4f9358a9aad" LastKnownName="Cat" />
+                  <relationshipOwnedElementsInternal>
+                    <associationHasOwnedEnds>
+                      <memberEnd Id="c873a1f9-7809-410d-b12c-2d2f5f1d1396" name="CatBreed" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                        <elementDefinition Id="63e046ef-2484-4bdb-ad29-1c912bd993a3" />
+                      </memberEnd>
+                    </associationHasOwnedEnds>
+                    <associationHasOwnedEnds>
+                      <memberEnd Id="e9dc1930-14d6-4425-af4b-644fa5eddb69" name="Cat" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                        <elementDefinition Id="3703f282-7917-4b18-8cbe-51bf8c565dc3" />
+                      </memberEnd>
+                    </associationHasOwnedEnds>
+                  </relationshipOwnedElementsInternal>
+                  <elementDefinition Id="cb021ece-767e-4e57-83ec-e6eb2d3bcd68" />
+                </association>
+              </targetEnds>
+              <ownedLiterals>
+                <enumerationLiteral Id="e79c2116-9bb2-4304-995d-9f3a1a46e42f" name="MaineCoon">
+                  <elementDefinition Id="57972d3d-449b-4d84-bdee-dffc49d2187e" />
+                </enumerationLiteral>
+                <enumerationLiteral Id="eb0b5ef3-fea2-43c8-b22e-08adaee5a01c" name="Ragdoll">
+                  <elementDefinition Id="d121f3dd-ba57-4429-b5d6-9af8ea946364" />
+                </enumerationLiteral>
+                <enumerationLiteral Id="60a4c76e-07af-4664-8d49-41883d747b6b" name="Bengal">
+                  <elementDefinition Id="857124c2-8e45-401e-ad2a-c995e48a5bab" />
+                </enumerationLiteral>
+                <enumerationLiteral Id="e3c52ab3-2089-4d38-969f-bf3cce3b71ac" name="AmericanShorthair">
+                  <elementDefinition Id="0895fd06-1a3f-4e92-8b2b-9f54156f1327" />
+                </enumerationLiteral>
+                <enumerationLiteral Id="421c83a3-d7a0-4fc6-a883-d1918acb2000" name="ExoticShorthair">
+                  <elementDefinition Id="cf8fc6c8-4e84-4f59-af6f-b8d62240d494" />
+                </enumerationLiteral>
+                <enumerationLiteral Id="5548e176-8ca5-4cb4-8c95-2aefda17731d" name="BritishShorthair">
+                  <elementDefinition Id="50a5c453-b828-4df1-ac77-9a81fe099ef8" />
+                </enumerationLiteral>
+              </ownedLiterals>
+            </enumeration>
+          </packageHasNamedElement>
+          <packageHasNamedElement>
+            <enumeration Id="1fab344d-f214-4431-a1cb-7448d455891d" name="Species" isAbstract="false" isLeaf="false">
+              <elementDefinition Id="b7045239-0bea-4ed3-8c0f-512d5777bea6" />
+              <ownedLiterals>
+                <enumerationLiteral Id="b2916efa-ebb7-4607-a3ae-05a476239d33" name="PygmyMarmoset">
+                  <elementDefinition Id="81266be5-fd93-4ae5-9d7f-453dd196dc3e" />
+                </enumerationLiteral>
+                <enumerationLiteral Id="8bff6626-575f-4dfe-aa42-7f5eb67b4bf8" name="Mandrill">
+                  <elementDefinition Id="93c04c5b-04ed-46ab-9d6a-046675aa52de" />
+                </enumerationLiteral>
+                <enumerationLiteral Id="ff532b81-fe03-4b31-afef-4146d541b9fc" name="Proboscis">
+                  <elementDefinition Id="1635b73d-260c-4917-8d33-3e60839ac78f" />
+                </enumerationLiteral>
+                <enumerationLiteral Id="fedec088-207a-43b2-bc63-2de12ada3ec8" name="Howler">
+                  <elementDefinition Id="94dfdbef-3805-4519-a9ea-cdb3001f7681" />
+                </enumerationLiteral>
+                <enumerationLiteral Id="ee41c36a-292d-41ec-94da-dc2a2f91eb1f" name="Macaque">
+                  <elementDefinition Id="304c9763-30d0-4cd7-9e84-c3a6182e7255" />
+                </enumerationLiteral>
+                <enumerationLiteral Id="744cc13d-b46e-4728-832f-b22b2ab96e57" name="Gelada">
+                  <elementDefinition Id="2ebe2078-9a28-4dc1-bdaa-9a01daddbd19" />
+                </enumerationLiteral>
+                <enumerationLiteral Id="0bb7c6de-b9ea-4fd2-b72d-c1844cd18426" name="Tamarin">
+                  <elementDefinition Id="f204c365-1d50-4009-9b4d-bfe7e92f4e14" />
+                </enumerationLiteral>
+                <enumerationLiteral Id="86f1d4eb-3c5b-449d-b152-55312236cc6c" name="Lesula">
+                  <elementDefinition Id="d63e5427-f105-4219-8610-982c48b17afe" />
+                </enumerationLiteral>
+                <enumerationLiteral Id="ee191d88-4767-421f-9b61-1cb336f22168" name="SnubNosed">
+                  <elementDefinition Id="c801216f-c9f5-4c9b-8c37-b6ac50e58979" />
+                </enumerationLiteral>
+                <enumerationLiteral Id="dc73f933-fb2d-4607-b00e-7ddfc01b7bce" name="Grivet">
+                  <elementDefinition Id="b2169099-547e-4d84-8ff0-11734cb9dd5e" />
+                </enumerationLiteral>
+                <enumerationLiteral Id="2963045b-1e8b-4f0d-bc39-6b52bb51c8ce" name="Spider">
+                  <elementDefinition Id="15310211-87b9-42f5-85c6-9b764c0c13c0" />
+                </enumerationLiteral>
+                <enumerationLiteral Id="4168509b-6b82-4cbf-a1c7-cb571580acf0" name="Baboon">
+                  <elementDefinition Id="2b5f9103-6021-4111-bd66-a0d2700df0b6" />
+                </enumerationLiteral>
+              </ownedLiterals>
+            </enumeration>
+          </packageHasNamedElement>
+          <packageHasNamedElement>
+            <class Id="835e174b-1733-4320-9646-dfed8539db61" name="Monkey" isAbstract="false" isLeaf="false" isActiveClass="false">
+              <elementDefinition Id="0143d5f7-6639-4a01-aa29-bae71e755355" />
+              <ownedAttributesInternal>
+                <property Id="c1dc0b1d-596a-4779-a0ad-f4fead1ad1bd" name="string Name" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="3ba789b5-aeec-45a4-bace-f01d55af8c84" />
+                </property>
+                <property Id="95edbfc2-259c-412f-ab71-db76ddbd0be7" name="int age" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="7e5e2cbd-515f-4b33-972f-ecd09fb467d6" />
+                </property>
+                <property Id="5c3ee18f-e44d-4081-8434-2ce62b2f2729" name="Species _species" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="e39a36f4-861c-4058-a481-0a860d9de92e" />
+                </property>
+                <property Id="41ffe1a2-29d4-4285-a765-e5c1774e0c1a" name="bool HasPoo" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="39cab879-668c-482a-adc5-bec71438fcd9" />
+                </property>
+              </ownedAttributesInternal>
+              <ownedOperationsInternal>
+                <operation Id="c87edfcf-f2be-4f28-8dca-301b724c1ec4" name="Monkey" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+                  <elementDefinition Id="cf5db7db-b17c-4caf-b4b7-6f794d26a720" />
+                </operation>
+                <operation Id="80e3fe78-3df0-4e71-939d-499858e3673a" name="Monkey" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+                  <elementDefinition Id="b059d616-6b82-4b6f-9581-000487b91720" />
+                  <ownedParameters>
+                    <operationHasOwnedParameters>
+                      <parameter Id="1e686f59-bb2e-430e-a0c6-0915f0780591" name="name" direction="In" isUnique="false">
+                        <elementDefinition Id="1729bed4-9a45-4d91-b116-e0daa78639d8" />
+                      </parameter>
+                    </operationHasOwnedParameters>
+                    <operationHasOwnedParameters>
+                      <parameter Id="1f2b4bcc-e71d-42d1-8a9d-074f830ce673" name="age" direction="In" isUnique="false">
+                        <elementDefinition Id="8df2bc5a-b884-44c9-b98b-f01dbcb4672a" />
+                      </parameter>
+                    </operationHasOwnedParameters>
+                    <operationHasOwnedParameters>
+                      <parameter Id="3659ac3c-6356-48db-a9c8-42b5cea108db" name="species" direction="In" isUnique="false">
+                        <elementDefinition Id="a4c10e53-1dc6-4447-a834-0376cdc17425" />
+                      </parameter>
+                    </operationHasOwnedParameters>
+                    <operationHasOwnedParameters>
+                      <parameter Id="28513273-bbec-4bf0-826d-cb3b0dbadff7" name="hasPoo" direction="In" isUnique="false">
+                        <elementDefinition Id="45936332-a656-43e6-886e-e871f3dd394a" />
+                      </parameter>
+                    </operationHasOwnedParameters>
+                  </ownedParameters>
+                </operation>
+              </ownedOperationsInternal>
+            </class>
+          </packageHasNamedElement>
+        </packagedElements>
+      </package>
+    </logicalClassDesignerModelHasPackages>
+    <packageHasNamedElement>
+      <referencedType Id="e0e239ea-5f34-486e-bbda-744f59a4ded0" name="string" isAbstract="false" isLeaf="false" cachedFullName="string">
+        <elementDefinition Id="4d8a32ea-1983-4844-a11c-4943df8a51b5" />
+      </referencedType>
+    </packageHasNamedElement>
+  </packagedElements>
+  <package Id="9e6fec45-bec6-4708-ad89-cbff71a7f606" name="AnimalUML">
+    <elementDefinition Id="b9876a39-71e8-4140-8767-db64ce308f88" />
+  </package>
+</logicalClassDesignerModel>
